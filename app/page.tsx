@@ -1,5 +1,15 @@
+import { Camp, Features, GetApp, Guide, Hero } from "@/components";
+
 export const Home = () => {
-  return <div>Hello</div>;
+  return (
+    <>
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+    </>
+  );
 };
 
 export default Home;

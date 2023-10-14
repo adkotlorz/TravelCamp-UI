@@ -6,7 +6,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import Button from "./Button";
+import { Button } from ".";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,7 +35,7 @@ const Navbar = () => {
           variant="btn_dark_green"
         />
       </div>
-      <section className="flex lg:hidden">
+      <div className="flex lg:hidden">
         <div className="space-y-2" onClick={() => setIsMenuOpen(true)}>
           <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
           <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
@@ -78,7 +78,7 @@ const Navbar = () => {
             />
           </ul>
         </div>
-      </section>
+      </div>
     </nav>
   );
 };
