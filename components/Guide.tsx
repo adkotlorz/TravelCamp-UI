@@ -15,30 +15,18 @@ const Guide = () => {
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-            Guide you to easy
-            path
+            Guide you to easy path
           </h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-            Lorem ipsum dolor
-            sit amet,
-            consectetur
-            adipiscing elit.
-            Sed elementum erat
-            vel felis blandit,
-            ullamcorper
-            euismod sem
-            congue. Integer
-            venenatis erat
-            eget turpis
-            interdum, vitae
-            ornare urna
-            laoreet. Sed vel
-            libero vitae erat
-            venenatis faucibus
-            eget non tortor.
-            Pellentesque
-            habitant morbi
-            tristique senectus
+            Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Sed
+            elementum erat vel felis blandit,
+            ullamcorper euismod sem congue.
+            Integer venenatis erat eget turpis
+            interdum, vitae ornare urna laoreet.
+            Sed vel libero vitae erat venenatis
+            faucibus eget non tortor. Pellentesque
+            habitant morbi tristique senectus
           </p>
         </div>
       </div>
