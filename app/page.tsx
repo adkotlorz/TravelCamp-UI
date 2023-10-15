@@ -6,7 +6,7 @@ import {
   Hero,
 } from "@/components";
 
-export const Home = () => {
+export default function Home() {
   return (
     <>
       <Hero />
@@ -16,6 +16,4 @@ export const Home = () => {
       <GetApp />
     </>
   );
-};
-
-export default Home;
+}
